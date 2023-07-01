@@ -6,23 +6,23 @@ body {
 
 #hero {
   width: 592px;
-  height: 579px;
   margin: 0 auto 72px;
 }
+
 #hero img {
   margin-bottom: 72px;
 }
+
 h1 {
   font-family: 'Inter', sans-serif;
   font-size: 49px;
   line-height: 56px;
   font-weight: normal;
-
-  margin-bottom: 32px;
 }
 
 h1 span {
   font-weight: bold;
+  margin-bottom: 32px;
 }
 
 span,
@@ -37,20 +37,19 @@ p,
   line-height: 28px;
 }
 
-/*pega um A que anterior a ele tenha um A*/
 #footer a + a {
   margin-left: 28px;
 }
 
-#line {
+.line {
   width: 568px;
   height: 0;
   margin: 0 auto 8px;
-  border: 1px #eceff2 solid;
+  border: 1px solid #eceff2;
 }
 
 #balls {
   position: fixed;
-  bottom: 0px;
-  right: 0px;
+  bottom: 0;
+  right: 0;
 }
